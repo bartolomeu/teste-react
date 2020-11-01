@@ -1,0 +1,20 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+ul.lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start: 0;
+}
+ul.lista > li{
+}
+ul.lista > li > button {
+  align-self: flex-end;
+  background-color: pink;
+}
+li {
+  border: 1px solid red;
+}
